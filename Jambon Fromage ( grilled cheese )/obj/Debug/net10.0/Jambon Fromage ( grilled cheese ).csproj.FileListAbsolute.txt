@@ -1,0 +1,14 @@
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\bin\Debug\net10.0\Jambon Fromage ( grilled cheese ).exe
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\bin\Debug\net10.0\Jambon Fromage ( grilled cheese ).deps.json
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\bin\Debug\net10.0\Jambon Fromage ( grilled cheese ).runtimeconfig.json
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\bin\Debug\net10.0\Jambon Fromage ( grilled cheese ).dll
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\bin\Debug\net10.0\Jambon Fromage ( grilled cheese ).pdb
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\obj\Debug\net10.0\Jambon Fromage ( grilled cheese ).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\obj\Debug\net10.0\Jambon Fromage ( grilled cheese ).AssemblyInfoInputs.cache
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\obj\Debug\net10.0\Jambon Fromage ( grilled cheese ).AssemblyInfo.cs
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\obj\Debug\net10.0\Jambon Fromage ( grilled cheese ).csproj.CoreCompileInputs.cache
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\obj\Debug\net10.0\Jambon Fromage ( grilled cheese ).dll
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\obj\Debug\net10.0\refint\Jambon Fromage ( grilled cheese ).dll
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\obj\Debug\net10.0\Jambon Fromage ( grilled cheese ).pdb
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\obj\Debug\net10.0\Jambon Fromage ( grilled cheese ).genruntimeconfig.cache
+C:\Users\Paul.DESKTOP-3QVNPJ4\Desktop\Jambon Fromage ( grilled cheese )\Jambon Fromage ( grilled cheese )\obj\Debug\net10.0\ref\Jambon Fromage ( grilled cheese ).dll
