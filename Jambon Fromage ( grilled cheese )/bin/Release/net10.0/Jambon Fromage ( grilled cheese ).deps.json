@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Jambon Fromage ( grilled cheese )/1.0.0": {
+        "runtime": {
+          "Jambon Fromage ( grilled cheese ).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Jambon Fromage ( grilled cheese )/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
