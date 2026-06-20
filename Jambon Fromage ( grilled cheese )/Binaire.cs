@@ -7,24 +7,24 @@ public class Binaire
     {   
         if (binaire == null)
                 {
-                    PrintLog(1);
+                    Logger.PrintLog(1);
                     return string.Empty;
                 }
-        else if (binaire.Length < 8)
+        if (binaire.Length < 8)
                 {
-                    PrintLog(2);
+                    Logger.PrintLog(2);
                     return string.Empty;
                 }
-        else if (binaire.Length > 8)
+        if (binaire.Length > 8)
                 {
-                    PrintLog(3);
+                    Logger.PrintLog(3);
                     return string.Empty;
                 }
         foreach (char i in binaire)
         {
             if (i != '0' && i != '1')
                 {
-                    PrintLog(4);
+                    Logger.PrintLog(4);
                     return string.Empty;
                 }
         }
@@ -35,32 +35,15 @@ public class Binaire
     {
         if (caractere == null)
         {
-            PrintLog(1);
+            Logger.PrintLog(1);
             return string.Empty;
         }
         if (caractere.Length != 1)
         {
-            PrintLog(5);
+            Logger.PrintLog(5);
             return string.Empty;
         }
         return Convert.ToString(caractere[0], 2).PadLeft(8, '0');
-    }
-
-
-    [Conditional("DEBUG")]
-    static void PrintLog(int nbErreur = 0)
-    {
-
-        string message = nbErreur switch
-        {
-            1 => "la chaine de caractere est null",
-            2 => "la chaine de caractere (binaire) a moins de 8 bits",
-            3 => "la chaine de caractere (binaire) a plus de 8 bits",
-            4 => "la chaine de caractere n'est pas binaire",
-            5 => "la chaine de caractere (Caractere) a plus que 1 caractere",
-            _ => "inconnue"
-        };
-        Console.WriteLine($"Erreur {nbErreur} : {message}");
     }
 
     static void Main()
