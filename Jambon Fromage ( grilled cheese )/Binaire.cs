@@ -64,5 +64,5 @@ public class Binaire
         Debug.Assert(CaractereToBinaire("5") != "10111");
         Console.WriteLine("Tests CaractereToBinaire terminés !");
         Console.WriteLine("Tous les tests sont terminés !");
-    }
-}
+    } */
+}}
