@@ -12,7 +12,8 @@ public class Logger
             2 => "la chaine de caractere (binaire) a moins de 8 bits",
             3 => "la chaine de caractere (binaire) a plus de 8 bits",
             4 => "la chaine de caractere n'est pas binaire",
-            5 => "la chaine de caractere (Caractere) a plus que 1 caractere",
+            5 => "La chaine de caractere (Caractere) a plus que 1 caractere",
+            6 => "le modulo est inférieur a 127",
             _ => "inconnue"
         };
         Console.WriteLine($"Erreur {nbErreur} : {message}");

@@ -18,9 +18,8 @@ static void Main()
         Debug.Assert(Binaire.CaractereToBinaire("5") != "10111");
         Console.WriteLine($"    Tests CaractereToBinaire terminés !");
         Console.WriteLine($"\nTous les tests de Binaire.cs sont terminés !\n");
-        Console.WriteLine(string.Join(",", RSA.Chiffrement("CHAT", "33,3")));
-        //Debug.Assert(RSA.Chiffrement("CHAT", "33,3").SequenceEqual(new[] { "27", "17", "1", "14" }));
-        //Debug.Assert(RSA.Dechiffrement("27,17,1,14", "33,7").SequenceEqual(new[] { "C", "H", "A", "T" }));
+        Debug.Assert(RSA.Chiffrement("CHAT", "17,3233").SequenceEqual(new[] { "641", "3000", "2790", "2159" }));
+        //Debug.Assert(RSA.Dechiffrement("27,17,1,14", "17,3233").SequenceEqual(new[] { "C", "H", "A", "T" }));
     #else
         Console.WriteLine($"\n==================\nDEBUG n'est PAS défini\n==================\n");
     #endif
