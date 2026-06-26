@@ -19,11 +19,20 @@ public class RSA
         return texte_chiffre;
     }
 
-    public static List<string>  Dechiffrement(string text,string clePrive)
-    {   
-        ;
-        List<string> T = new List<string> { "0" };
-        return T;
+    public static string  Dechiffrement(List<string> text,string clePrive)
+    {
+        string texte = string.Empty;
+        string[] clepublique = clePrive.Split(",");   
+        if (int.Parse(clepublique[1]) <= 127)
+        {
+            Logger.PrintLog(6);
+            return texte;
+        }
+        foreach (string x in text)
+        {
+            texte += (char)BigInteger.ModPow(BigInteger.Parse(x), BigInteger.Parse(clepublique[0].ToString()), BigInteger.Parse(clepublique[1].ToString()));
+        }
+        return texte;
     }
 
 }
