@@ -2,16 +2,23 @@ using System.Numerics;
 
 public class RSA
 {
+    public static string[] SeparationCle(string cle)
+    {
+        string[] cle_ = cle.Split(",");   
+        if (int.Parse(cle_[1]) <= 127)
+        {
+            Logger.PrintLog(6);
+            throw new ArgumentException("Clé invalide");
+        }
+        return cle_;
+
+    } 
+
     public static List<string> Chiffrement(string text, string clePublique)
     {
         List<string> texte_chiffre = new List<string>{};
-        string[] clepublique = clePublique.Split(",");   
-        if (int.Parse(clepublique[1]) <= 127)
-        {
-            Logger.PrintLog(6);
-            return texte_chiffre;
-        }
-
+        string[] clepublique = SeparationCle(clePublique);
+        
         foreach (int x in text)
         {
             texte_chiffre.Add(BigInteger.ModPow(x, BigInteger.Parse(clepublique[0].ToString()), BigInteger.Parse(clepublique[1].ToString())).ToString());
@@ -21,18 +28,14 @@ public class RSA
 
     public static string  Dechiffrement(List<string> text,string clePrive)
     {
-        string texte = string.Empty;
-        string[] clepublique = clePrive.Split(",");   
-        if (int.Parse(clepublique[1]) <= 127)
-        {
-            Logger.PrintLog(6);
-            return texte;
-        }
+        string texte_dechiffre = string.Empty;
+        string[] cleprive = SeparationCle(clePrive);
+
         foreach (string x in text)
         {
-            texte += (char)BigInteger.ModPow(BigInteger.Parse(x), BigInteger.Parse(clepublique[0].ToString()), BigInteger.Parse(clepublique[1].ToString()));
+            texte_dechiffre += (char)BigInteger.ModPow(BigInteger.Parse(x), BigInteger.Parse(cleprive[0].ToString()), BigInteger.Parse(cleprive[1].ToString()));
         }
-        return texte;
+        return texte_dechiffre;
     }
 
 }

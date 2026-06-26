@@ -29,7 +29,7 @@ static void Main()
 
         Console.ForegroundColor = ConsoleColor.Yellow;
 
-        Console.WriteLine($"Debuts des tests de RSA.cs");
+        Console.WriteLine($"Debuts des tests de RSA.cs!");
 
         Console.ForegroundColor = ConsoleColor.Green;
 
