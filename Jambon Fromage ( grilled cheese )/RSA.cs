@@ -1,15 +1,16 @@
-
-
-using System.Runtime.InteropServices;
+using System.Numerics;
 
 public class RSA
 {
-    public static List<string>  Chiffrement(string text,string clePublique)
+    public static List<string> Chiffrement(string text, string clePublique)
     {
         List<string> texte_chiffre = new List<string>{};
-        List<string> texte = new List<string>{};
+        string[] clepublique = clePublique.Split(",");        
         foreach (int x in text)
-            Console.WriteLine(x);
+        {
+            Console.WriteLine($"{x}");
+            texte_chiffre.Add(BigInteger.ModPow(x, BigInteger.Parse(clepublique[0].ToString()), BigInteger.Parse(clepublique[1].ToString())).ToString());
+        }
         return texte_chiffre;
     }
 

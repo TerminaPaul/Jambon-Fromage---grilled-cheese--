@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jambon Fromage ( grilled cheese )")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+468039a6a3d00689474a00bc0aff1addf33090a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5b0d0607ef00e89c4d25116a6e53f1d6626635d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jambon Fromage ( grilled cheese )")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jambon Fromage ( grilled cheese )")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
